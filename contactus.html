@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <title>Vintage flower weddings & CO - Contact Us</title>
+    <style type="text/css">
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #0e0325;
+        }
+
+        li {
+        float: left;
+        }
+
+        li a, .dropbtn {
+        display: inline-block;
+        color: #c77fd8;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+
+        li a:hover, .dropdown1:hover .dropbtn {
+        color: orangered;
+        text-decoration: none;
+        background-color: #f1f1f1;
+        }
+
+        li.dropdown1 {
+        display: inline-block;
+        }
+
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #0e0325;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        }
+
+        .dropdown-content a {
+        color: #c77fd8;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        }
+
+        .dropdown-content a:hover {background-color: #f1f1f1;}
+
+        .dropdown1:hover .dropdown-content {
+        display: block;
+        }
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+        .center {
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+        }
+        @font-face {
+          font-family: Stencil;
+          src: url('fonts/Stencil.ttf');
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container-fluid" style="background-color: #0e0325; color: #c77fd8; font-family: Arial, Helvetica, sans-serif;">
+        
+        <!--HEADER-->
+        <div class="row">
+            
+            <!--LOGO-->
+            <div class="col-2">
+                <a href='index.html'>
+                  <img src="images/LOGO/logo.png" class="img-fluid mx-auto d-block" alt="Vintage flower weddings & CO - Logo" />
+                </a>
+            </div>
+
+            <!--NAVBAR-->
+            <div class="col-10 ">
+                
+                    <ul style="padding-top: 75px; padding-left: 600px;">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li class="dropdown1">
+                          <a href="javascript:void(0)" class="dropbtn">Our Work</a>
+                          <div class="dropdown-content">
+                            <a href="decorations.html">Decorations</a>
+                            <a href="haldi.html">Haldi</a>
+                            <a href="prewedding.html">Pre Wedding</a>
+                            <a href="wedding.html">Wedding</a>
+                          </div>
+                        </li>
+                        <li><a href="reviews.html">Reviews</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                      </ul>
+
+            </div>
+            
+            
+        </div>
+
+        <div class="center">
+            <h1 style="font-family: Stencil; text-align: center;">Contact Us</h1>
+        </div>
+
+        <!--BODY-->
+        <div class="row">
+                
+            <div class="col-3">
+
+            </div>
+
+            <div class="col-6">
+
+                <form action="./contactus2.html" class="needs-validation" method="get" novalidate>
+
+                    <!--Name-->
+                    <div class="form-group">
+
+                        <label for="txtname">Enter your Name*:</label>
+                        <input type="text" name="txtname" class="form-control" placeholder="Firstname LastName" required/>
+                        <div class="invalid-feedback">Please enter your name.</div>
+
+                    </div>
+
+                    <!--Contact Number-->
+                    <div class="form-group">
+
+                        <label for="txtnum">Enter your Contact Number*:</label>
+                        <input type="tel" name="txtnum" class="form-control" placeholder="Your 10 digit mobile number" pattern="^\d{10}$" required/>
+                        <div class="invalid-feedback">Please enter 10 digit mobile number.</div>
+
+                    </div>
+
+                    <!--Email-->
+                    <div class="form-group">
+
+                        <label for="txtemail">Enter your Email Address*:</label>
+                        <input type="email" name="txtemail" class="form-control" placeholder="name@domain.com" required/>
+                        <div class="invalid-feedback">Please enter a valid Email address.</div>
+
+                    </div>
+
+                    <!--Requirements-->
+                    <label for="chkrequirements">Select your Requirements:</label>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="Pre Wedding Photoshoot">Pre Wedding Photoshoot
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="Candid Wedding Photography">Candid Wedding Photography
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="Traditional Wedding Photography">Traditional Wedding Photography
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="Cinematic Wedding Video">Cinematic Wedding Video
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="Traditional Wedding Video">Traditional Wedding Video
+                        </label>
+                    </div>
+                    <br>
+                    <!--City/Venue-->
+                    <div class="form-group">
+                        <label for="txtcity">Enter your City / Venue*:</label>
+                        <input type="text" name="txtcity" class="form-control" placeholder="City / Venue Name" required/>
+                        <div class="invalid-feedback">Please enter your City / Venue.</div>
+                    </div>
+
+                    <!--Other details-->
+                    <div class="form-group">
+                        <label for="txtdetails">Please Share Other Details related to the Venue, Dates and Events (50-500 characters):</label>
+                        <textarea class="form-control" rows="5" name="txtdetails" minlength="50" maxlength="500"></textarea>
+                        <div class="invalid-feedback">Please enter a minimum of 50 characters and a maximum of 500 characters.</div>
+                    </div>
+
+                    <!--Send Submit button-->
+                    <button type="submit" name="btnsub" id="btnsub" class="btn btn-primary">Send</button>
+
+                </form>
+                <!-- JavaScript for disabling form submissions if there are invalid fields -->
+                <script>
+                    // Self-executing function
+                    (function() {
+                        'use strict';
+                        window.addEventListener('load', function() {
+                            // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                            var forms = document.getElementsByClassName('needs-validation');
+                            // Loop over them and prevent submission
+                            var validation = Array.prototype.filter.call(forms, function(form) {
+                                form.addEventListener('submit', function(event) {
+                                    if (form.checkValidity() === false) {
+                                        event.preventDefault();
+                                        event.stopPropagation();
+                                    }
+                                    form.classList.add('was-validated');
+                                }, false);
+                            });
+                        }, false);
+                    })();
+                </script>
+
+            </div>
+
+            <div class="col-3">
+
+            </div>
+                
+        </div>
+
+        <br/>
+        
+        <!--FOOTER-->
+        <!-- Footer -->
+        <footer class="page-footer font-small blue pt-4">
+
+          <!-- Footer Links -->
+          <div class="container-fluid text-center text-md-left">
+
+            
+      
+            <!-- Grid row -->
+            <div class="row">
+
+              <div class="col-4">
+                <img src="images/LOGO/collage.jpeg" class="img-fluid mx-auto d-block" alt="Vintage flower weddings & CO - Collage"/> 
+              </div>
+
+              <div class="col-4">
+                <h5 class="text-uppercase">Our Address:</h5>
+                <p>
+                    Krishna Nagar , Near East Azad Nagar Metro Station , New Delhi
+                    <br/>
+                    908*****57
+                </p>
+                <a href='index.html'>
+                  <img src="images/LOGO/logo.png" alt="Vintage flower weddings & CO - Logo" height="300px" />
+                </a>
+              </div>
+
+              <div class="col-4">
+                <!-- Links -->
+                <h5 class="text-uppercase">Links</h5>
+                <ul>
+                  <li><a href="aboutus.html">About Us</a></li>
+                  <li><a href="reviews.html">Reviews</a></li>
+                  <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+                <br/>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3428.059217147356!2d76.76574711465524!3d30.77291739074692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ff27070565011%3A0xa55c8b3f0d58381c!2s183%2C%20Khuda%20Lahora%20Rd%2C%20Sector%2012%2C%20Chandigarh%2C%20160014!5e0!3m2!1sen!2sin!4v1597161140184!5m2!1sen!2sin" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              </div>
+        
+            </div>
+            <!-- Grid row -->
+      
+          </div>
+          <!-- Footer Links -->
+      
+
+
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">
+          © 2020 Copyright: Vintage flower weddings & CO
+          </div>
+          <!-- Copyright -->
+      
+      </footer>
+      <!-- Footer -->
+
+    </div>
+
+</body>
+</html>

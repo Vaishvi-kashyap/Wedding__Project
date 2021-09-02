@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <title>Vintage flower weddings & CO - Home</title>
+    <style type="text/css">
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #0e0325;
+        }
+
+        li {
+        float: left;
+        }
+
+        li a, .dropbtn {
+        display: inline-block;
+        color: #c77fd8;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        }
+
+        li a:hover, .dropdown1:hover .dropbtn {
+        color: orangered;
+        text-decoration: none;
+        background-color: #f1f1f1;
+        }
+
+        li.dropdown1 {
+        display: inline-block;
+        }
+
+        .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #0e0325;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        }
+
+        .dropdown-content a {
+        color: #c77fd8;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        }
+
+        .dropdown-content a:hover {background-color: #f1f1f1;}
+
+        .dropdown1:hover .dropdown-content {
+        display: block;
+        }
+        /* Make the image fully responsive */
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+        .center {
+            margin: auto;
+            width: 50%;
+            padding: 10px;
+        }
+        @font-face {
+          font-family: Stencil;
+          src: url('fonts/Stencil.ttf');
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container-fluid" style="background-color: #0e0325; color: #c77fd8; font-family: Arial, Helvetica, sans-serif;">
+        
+        <!--HEADER-->
+        <div class="row">
+            
+            <!--LOGO-->
+            <div class="col-2">
+                <a href='index.html'>
+                  <img src="images/LOGO/logo.png" class="img-fluid mx-auto d-block" alt="Vintage flower weddings & CO - Logo" />
+                </a>
+            </div>
+
+            <!--NAVBAR-->
+            <div class="col-10 ">
+                    <ul style="padding-top: 75px; padding-left: 600px;">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li class="dropdown1">
+                          <a href="javascript:void(0)" class="dropbtn">Our Work</a>
+                          <div class="dropdown-content">
+                            <a href="decorations.html">Decorations</a>
+                            <a href="haldi.html">Haldi</a>
+                            <a href="prewedding.html">Pre Wedding</a>
+                            <a href="wedding.html">Wedding</a>
+                          </div>
+                        </li>
+                        <li><a href="reviews.html">Reviews</a></li>
+                        <li><a href="contactus.html">Contact Us</a></li>
+                      </ul>
+            </div>
+            
+            
+        </div>
+
+        <!--IMAGE SCROLLER-->
+        <div class="row">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                  <li data-target="#demo" data-slide-to="3"></li>
+                </ul>
+                
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/Wedding/wedding 16.jpg" alt="wedding deco 3" width="100%" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Wedding/wedding 7.jpg" alt="Haldi 3" width="100%" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Wedding/wedding 17.jpg" alt="wedding 4" width="100%" height="500">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Decorations/wedding deco 9.jpg" alt="wedding 8" width="100%" height="500">
+                  </div>
+                </div>
+                
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+        </div>
+
+        <!--BODY-->
+        <div class="row">
+            <div class="center">
+                <h1 style="font-family: Stencil; text-align: center;">Best Photographers in Chandigarh</h1>
+                <p style="text-align: justify;">
+                    We are one of the Best Wedding Photographers in Chandigarh! Events such as weddings are about traditions and rituals, about momentous moments, about journeys of discovery and about new relationships. To cement all of that together you need something strong, something beautiful and something everlasting. That’s what Vintage Flower Photography creates for you-beautiful memories that outlive time and space with our specialized Candid Photography.<br/>
+
+                    In Chandigarh, things are always happening and competition is cut-throat, but amidst it all we are there for you, providing artistically and stylistically, the joyous moments of a lifetime. Love may be in the air, but we capture that too by not missing out on those hidden glances, the subtle displays of affection, the latent nuances that emerge stealthily—oblivious to all eyes but that of our camera!<br/>
+
+                    A peep into our work on Candid Photography by our Candid Photographers will show you how stimulating we can be and why we chose Vintage Flower Photography as our signature. We understand the meaning of business success and know what it takes to get there. For all practical purposes we may be photographers, but we believe that it’s an art that goes beyond the mere technicalities. It’s a passion for us and each photograph is a commitment towards excellence.
+                </p>
+                <video width="640" height="320" controls>
+                    <source src="videos/nitish_wedding.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                
+            </div>
+        </div>
+
+        
+
+        <!--FOOTER-->
+        <!-- Footer -->
+        <footer class="page-footer font-small blue pt-4">
+
+            <!-- Footer Links -->
+            <div class="container-fluid text-center text-md-left">
+
+              
+        
+              <!-- Grid row -->
+              <div class="row">
+
+                <div class="col-4">
+                  <img src="images/LOGO/collage.jpeg" class="img-fluid mx-auto d-block" alt="Vintage flower weddings & CO - Collage"/> 
+                </div>
+
+                <div class="col-4">
+                  <h5 class="text-uppercase">Our Address:</h5>
+                  <p>
+                    Krishna Nagar , Near East Azad Nagar Metro Station , New Delhi
+                      <br/>
+                      908*****57
+                  </p>
+                  <a href='index.html'>
+                    <img src="images/LOGO/logo.png" alt="Vintage flower weddings & CO - Logo" height="300px" />
+                  </a>
+                </div>
+
+                <div class="col-4">
+                  <!-- Links -->
+                  <h5 class="text-uppercase">Links</h5>
+                  <ul>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="reviews.html">Reviews</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                  </ul>
+                  <br/>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3428.059217147356!2d76.76574711465524!3d30.77291739074692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ff27070565011%3A0xa55c8b3f0d58381c!2s183%2C%20Khuda%20Lahora%20Rd%2C%20Sector%2012%2C%20Chandigarh%2C%20160014!5e0!3m2!1sen!2sin!4v1597161140184!5m2!1sen!2sin" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+          
+              </div>
+              <!-- Grid row -->
+        
+            </div>
+            <!-- Footer Links -->
+        
+
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">
+            © 2020 Copyright: Vintage flower weddings & CO
+            </div>
+            <!-- Copyright -->
+        
+        </footer>
+        <!-- Footer -->
+
+    </div>
+
+</body>
+</html>
